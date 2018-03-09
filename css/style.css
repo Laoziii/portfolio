@@ -84,14 +84,38 @@ p, a,{
 }
 
 .dropc{
+    display: none;
     position: absolute;
     z-index: 1;
 }
 
-.dropl:hover{
+.dropc a{
+    text-decoration: none;
     display: block;
+    text-align: center;
+    border: 2px solid #a5b1bd;
+    background-color: white;
+    width: 290px;
+    height: 29px;
+    margin-right: 1%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: #3f5676;
+}
+
+.sidething:hover .dropc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .sidething{
     overflow: hidden;
+}
+
+section{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #3f5676;
 }
