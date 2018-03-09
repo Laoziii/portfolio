@@ -1,6 +1,9 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: #a5b1bd;
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../ims/IMG_06252.jpg);
+    background-size: cover;
 }
 .titlet{
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../ims/IMG_0218.jpg);
@@ -57,8 +60,13 @@ h2{
     margin-top: 0;
 }
 
-p, a,{
+p, a{
     font-family: "Tahoma Regular";
+}
+
+p{
+    font-size: 20px;
+    margin-top: 0;
 }
 
 .dropdown{
@@ -118,4 +126,6 @@ section{
     margin-left: 10%;
     margin-right: 10%;
     background-color: #3f5676;
+    padding: 1%;
+    height: 100%;
 }
