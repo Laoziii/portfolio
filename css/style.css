@@ -1,0 +1,97 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.titlet{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../ims/IMG_0218.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -200px;
+    height: 100vh;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleb{
+    background-color: rgba(225,225,225,.4);
+    width: 40%;
+}
+
+h1{
+    color: #fde9ce;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    background-color: #fde9ce;
+    width: 240px;
+    text-align: center;
+    margin: 0;
+    border: 5px solid #fde9ce;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Orator Std Medium', medium;
+}
+
+.name{
+    width: 245px;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.title{
+    background-color: #393e41;
+    padding: 1%;
+}
+
+h2{
+    margin-top: 0;
+}
+
+p, a,{
+    font-family: "Tahoma Regular";
+}
+
+.dropdown{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-content: center;
+    overflow: hidden;
+}
+
+.dropl{
+    margin-top: 1%;
+    display: inline-block;
+    border: 5px solid #fde9ce;
+    background-color: white;
+    width: 400px;
+    height: 29px;
+    margin-right: 1%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    color: #3f5676;
+}
+
+.dropc{
+    position: absolute;
+    z-index: 1;
+}
+
+.dropl:hover{
+    display: block;
+}
+
+.sidething{
+    overflow: hidden;
+}
