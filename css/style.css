@@ -4,6 +4,7 @@ body {
     background-color: #a5b1bd;
     background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../ims/IMG_06252.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 .titlet{
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../ims/IMG_0218.jpg);
@@ -30,7 +31,7 @@ h1{
     text-align: center;
 }
 
-h2{
+.topr{
     background-color: #fde9ce;
     width: 240px;
     text-align: center;
@@ -82,6 +83,7 @@ p{
     display: inline-block;
     border: 5px solid #fde9ce;
     background-color: white;
+    min-width: 400px;
     width: 400px;
     height: 29px;
     margin-right: 1%;
@@ -122,10 +124,66 @@ p{
     overflow: hidden;
 }
 
+nav{
+    
+}
+
 section{
     margin-left: 10%;
     margin-right: 10%;
-    background-color: #3f5676;
+    background-color: rgba(63,86,118,.9);
     padding: 1%;
     height: 100%;
+}
+
+/**footer**/
+footer{
+    background-color: #393e41;
+    padding: .5%;
+}
+
+.these{
+    display: flex;
+    justify-content: center;
+}
+
+.these li{
+    width: 100%;
+    border: 1px solid #a5b1bd;
+    display: flex;
+    justify-content: center;
+}
+
+.these li a{
+    color: white;
+}
+
+.these li ul{
+    padding: 0;
+}
+
+/** home page **/
+.bigh{
+    width: 20vh;
+    background-color: #4d678a;
+    padding: 1%;
+    text-align: center;
+    font-family: "Tahoma Regular";
+    margin: auto;
+}
+
+.bighh{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.size{
+    width: 100%;
+}
+
+.flexh{
+    display: flex;
+    flex-wrap: wrap;
 }
