@@ -14,6 +14,14 @@ body {
     height: 100vh;
 }
 
+.titleab{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../ims/IMG_02412.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -200px;
+    height: 100vh;
+}
+
 .flex{
     display: flex;
     justify-content: center;
@@ -52,7 +60,7 @@ ul{
     list-style-type: none;
 }
 
-.title{
+nav{
     background-color: #393e41;
     padding: 1%;
 }
@@ -131,7 +139,7 @@ nav{
 section{
     margin-left: 10%;
     margin-right: 10%;
-    background-color: rgba(63,86,118,.9);
+    background-color: rgba(134,139,145,.9);
     padding: 1%;
     height: 100%;
 }
@@ -165,7 +173,7 @@ footer{
 /** home page **/
 .bigh{
     width: 20vh;
-    background-color: #4d678a;
+    background-color: #868b91;
     padding: 1%;
     text-align: center;
     font-family: "Tahoma Regular";
