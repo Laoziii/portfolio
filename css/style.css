@@ -54,6 +54,14 @@ body {
     height: 100vh;
 }
 
+.titlega{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../ims/IMG_02042.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -200px;
+    height: 100vh;
+}
+
 .flex{
     display: flex;
     justify-content: center;
@@ -84,8 +92,17 @@ h1, h2, h3, h4{
 }
 
 .name{
-    width: 245px;
-    margin: 0;
+    border: 2px solid white;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.rvt{
+    width: 100%;
 }
 
 ul{
@@ -110,18 +127,22 @@ p{
     margin-top: 0;
 }
 
+.title{
+    display: flex;
+}
+
 .dropdown{
     width: 100%;
     height: auto;
     display: flex;
-    align-content: center;
+    align-items: center;
     overflow: hidden;
+    justify-content: center;
 }
 
 .dropl{
-    margin-top: 1%;
     display: inline-block;
-    border: 5px solid #fde9ce;
+    border: 3px solid #fde9ce;
     background-color: white;
     min-width: 400px;
     width: 400px;
@@ -131,6 +152,7 @@ p{
     text-align: center;
     font-size: 25px;
     color: #3f5676;
+    margin-top: 0;
 }
 
 .dropc{
@@ -226,4 +248,45 @@ footer{
 .flexh{
     display: flex;
     flex-wrap: wrap;
+}
+
+/**resume**/
+.resume{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.edu, .work, .lang, .plang{
+    width: 50%;
+}
+
+.headr{
+    text-decoration: underline;
+}
+/** Gallery **/
+.descp{
+    width: 50%;
+    margin-left: 1%;
+}
+
+.picf{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.picr{
+    width: 50%;
+}
+
+.mainp{
+    width: 712px;
+}
+
+.but{
+    display: flex;
+    justify-content: center;
+    width: 712px;
 }
