@@ -186,10 +186,6 @@ p{
     overflow: hidden;
 }
 
-nav{
-    
-}
-
 section{
     margin-left: 10%;
     margin-right: 10%;
@@ -198,35 +194,9 @@ section{
     height: 100%;
 }
 
-/**footer**/
-footer{
-    background-color: #393e41;
-    padding: .5%;
-}
-
-.these{
-    display: flex;
-    justify-content: center;
-}
-
-.these li{
-    width: 100%;
-    border: 1px solid #a5b1bd;
-    display: flex;
-    justify-content: center;
-}
-
-.these li a{
-    color: white;
-}
-
-.these li ul{
-    padding: 0;
-}
-
 /** home page **/
 .bigh{
-    width: 20vh;
+    width: 100%;
     background-color: #868b91;
     padding: 1%;
     text-align: center;
@@ -235,34 +205,91 @@ footer{
 }
 
 .bighh{
-    width: 100%;
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .size{
-    width: 100%;
+    width: 50%;
+    height: 25%;
+}
+
+.size p{
+    margin-top: 10%;
 }
 
 .flexh{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
+
+.cardh{
+    display: flex;
+    justify-content: space-around;
+}
+
+/** About Me **/
+
+    
 
 /**resume**/
 .resume{
     display: flex;
     flex-wrap: wrap;
-    align-content: space-around;
+    align-items: flex-start;
+    justify-content: space-around;
 }
 
 .edu, .work, .lang, .plang{
-    width: 50%;
+    width: 40%;
 }
 
 .headr{
     text-decoration: underline;
+}
+/** Portfolio **/
+.portc{
+    width: 25%;
+}
+
+.portfl{
+    display: flex;
+    justify-content: space-around;
+}
+/** Resume **/
+.resfl{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.resfl h2{
+    width: 100%;
+    margin-left: 50%;
+}
+
+.resfl p{
+    width: 50%;
+}
+
+.resflr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-bottom: 5%;
+}
+
+.resflr h2{
+    width: 100%;
+}
+
+.resflr p{
+    width: 50%;
 }
 /** Gallery **/
 .descp{
