@@ -292,28 +292,44 @@ section{
     width: 50%;
 }
 /** Gallery **/
-.descp{
-    width: 50%;
-    margin-left: 1%;
-}
 
 .picf{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-start;
-}
-
-.picr{
-    width: 50%;
-}
-
-.mainp{
-    width: 712px;
-}
-
-.but{
-    display: flex;
+    align-content: center;
     justify-content: center;
-    width: 712px;
+    position: relative;
+}
+
+.galp{
+    width: 100%;
+}
+
+.gal{
+    width: 1000px;
+    display: none;
+}
+
+.back, .next{
+    position: absolute;
+    width: auto;
+    top: 40%;
+}
+
+.next{
+    right: 0;
+}
+
+.row{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.column{
+    width: 200px;
+}
+
+.view{
+    width: 100%;
 }

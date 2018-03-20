@@ -41,23 +41,58 @@
             <h2>Photo Gallery</h2>
             <p>I like to take pictures wherever I go, so here is just a slideshow of some of the pictures that I've taken</p>
             <div class="picf">
-                <img src="http://via.placeholder.com/712x600" alt="placeholder" class="mainp">
-                <div class="descp">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus eligendi explicabo numquam, sit quaerat odit omnis, alias consequatur itaque repudiandae illum sed perferendis doloribus eos deserunt ab voluptatem qui veniam?</p>
+                <div class="gal">
+                    <img class="galp" src="ims/IMG_02032.jpg" alt="San Fran">
                 </div>
-            </div>
-            <div class="but">
-                <input type="button" value="left" class="but">
-                <input type="button" value="right" class="but">
-            </div>
-            <div class="picr">
-                <img src="http://via.placeholder.com/175x100" alt="">
-                <img src="http://via.placeholder.com/175x100" alt="">
-                <img src="http://via.placeholder.com/175x100" alt="">
-                <img src="http://via.placeholder.com/175x100" alt="">
+                <div class="gal">
+                    <img class="galp" src="ims/IMG_02262.jpg" alt="San Fran">
+                </div>
+                <div class="gal">
+                    <img class="galp" src="ims/IMG_03832.jpg" alt="San Fran">
+                </div>
+                <div class="gal">
+                    <img class="galp" src="ims/IMG_06172.jpg" alt="San Fran">
+                </div>
+                <div class="gal">
+                    <img class="galp" src="ims/IMG_06312.jpg" alt="San Fran">
+                </div>
+                <div class="gal">
+                    <img class="galp" src="ims/IMG_06512.jpg" alt="San Fran">
+                </div>
+                <div class="gal">
+                    <img class="galp" src="ims/IMG_06542.jpg" alt="San Fran">
+                </div>
+                
+                <input type="button" class="back" onclick="conPic(-1)">
+                <input type="button" class="next" onclick="conPic(1)">
+                
+                <div class="row">
+                    <div class="column">
+                        <img class="view" src="ims/IMG_02032.jpg" alt="San Fran" onclick="curPic(1)">
+                    </div>
+                    <div class="column">
+                        <img class="view" src="ims/IMG_02262.jpg" alt="San Fran" onclick="curPic(2)">
+                    </div>
+                    <div class="column">
+                        <img class="view" src="ims/IMG_03832.jpg" alt="San Fran" onclick="curPic(3)">
+                    </div>
+                    <div class="column">
+                        <img class="view" src="ims/IMG_06172.jpg" alt="San Fran" onclick="curPic(4)">
+                    </div>
+                    <div class="column">
+                        <img class="view" src="ims/IMG_06312.jpg" alt="San Fran" onclick="curPic(5)">
+                    </div>
+                    <div class="column">
+                        <img class="view" src="ims/IMG_06512.jpg" alt="San Fran" onclick="curPic(6)">
+                    </div>
+                    <div class="column">
+                        <img class="view" src="ims/IMG_06542.jpg" alt="San Fran" onclick="curPic(7)">
+                    </div>
+                </div>
             </div>
             
         </article>
     </section>
+    <script src="yes.js"></script>
 </body>
 </html>
