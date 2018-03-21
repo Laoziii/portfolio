@@ -259,6 +259,32 @@ section{
     display: flex;
     justify-content: space-around;
 }
+
+.portfl a{
+    text-decoration: none;
+}
+
+.webpc{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../ims/IMG_07132.jpg);
+    background-size: cover;
+}
+
+.webp{
+    width: 100%;
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.webp h3{
+    height: 5%;
+}
+
+.webp p{
+    text-align: center;
+}
 /** Resume **/
 .resfl{
     display: flex;
@@ -311,14 +337,28 @@ section{
     display: none;
 }
 
+.but{
+    width: 67.3%;
+}
+
+.picp{
+    text-align: center;
+}
+
 .back, .next{
     position: absolute;
-    width: auto;
     top: 40%;
+    height: 5%;
+    background-color: rgba(225,225,225,.3);
+    border: none;
+}
+
+.back:hover, .next:hover{
+    background-color: rgba(225,225,225,.5);
 }
 
 .next{
-    right: 0;
+    right: 16.3%;
 }
 
 .row{

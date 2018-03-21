@@ -39,7 +39,9 @@
     <section>
         <article>
             <h2>Photo Gallery</h2>
-            <p>I like to take pictures wherever I go, so here is just a slideshow of some of the pictures that I've taken</p>
+            <div class="picp">
+                <p>I like to take pictures wherever I go, so here is just a slideshow of some of the pictures that I've taken</p>
+            </div>
             <div class="picf">
                 <div class="gal">
                     <img class="galp" src="ims/IMG_02032.jpg" alt="San Fran">
@@ -63,8 +65,10 @@
                     <img class="galp" src="ims/IMG_06542.jpg" alt="San Fran">
                 </div>
                 
-                <input type="button" class="back" onclick="conPic(-1)">
-                <input type="button" class="next" onclick="conPic(1)">
+                <div class="but">
+                    <input type="button" class="back" onclick="conPic(-1)" value="&#10094">
+                    <input type="button" class="next" onclick="conPic(1)" value="&#10095">
+                </div>
                 
                 <div class="row">
                     <div class="column">

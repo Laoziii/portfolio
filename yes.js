@@ -16,7 +16,11 @@ function showPic(n){
     
     if (n > photo.length) {picInd = 1}
     
-    if (n < 1) {picInd - photo.length}
+    if (n < 1) {picInd = photo.length}
+    
+    for (i = 0; i < photo.length; i++){
+        photo[i].style.display = "none";
+    }
     
     for (i = 0; i < view.length; i++) {
         view[i].className = view[i].className.replace(" active", "");
