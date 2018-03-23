@@ -62,6 +62,14 @@ body {
     height: 100vh;
 }
 
+.titlec{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../ims/IMG_04252.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -200px;
+    height: 100vh;
+}
+
 .flex{
     display: flex;
     justify-content: center;
@@ -144,8 +152,7 @@ p{
     display: inline-block;
     border: 3px solid #fde9ce;
     background-color: white;
-    min-width: 400px;
-    width: 400px;
+    width: 300px;
     height: 29px;
     margin-right: 1%;
     text-decoration: none;
@@ -153,6 +160,10 @@ p{
     font-size: 25px;
     color: #3f5676;
     margin-top: 0;
+}
+
+.dropl:last-child{
+    margin-left: 1%;
 }
 
 .dropl:hover{
@@ -171,7 +182,7 @@ p{
     text-align: center;
     border: 2px solid #a5b1bd;
     background-color: white;
-    width: 400px;
+    width: 300px;
     height: 29px;
     margin-right: 1%;
     text-decoration: none;
@@ -239,6 +250,21 @@ section{
     justify-content: space-around;
 }
 
+.carda{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../ims/IMG_05222.jpg);
+    background-size: cover;
+}
+
+.cardr{
+    background-image: url(../ims/IMG_05042.jpg);
+    background-size: cover;
+}
+
+.cardp{
+    background-image: url(../ims/IMG_04862.jpg);
+    background-size: cover;
+}
+
 /** About Me **/
 
     
@@ -261,6 +287,10 @@ section{
 /** Portfolio **/
 .portc{
     width: 25%;
+}
+
+.portc a{
+    text-decoration: none;
 }
 
 .portfl{
@@ -391,3 +421,6 @@ section{
 .view{
     width: 100%;
 }
+
+/**Media queries**/
+
