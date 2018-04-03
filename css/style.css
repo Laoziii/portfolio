@@ -407,10 +407,6 @@ section{
 
 .galp{
     width: 100%;
-}
-
-.gal{
-    width: 1000px;
     display: none;
 }
 
@@ -422,29 +418,16 @@ section{
     text-align: center;
 }
 
-.back, .next{
-    position: absolute;
-    top: 40%;
-    height: 5%;
-    background-color: rgba(225,225,225,.3);
-    border: none;
-}
-
-.back:hover, .next:hover{
-    background-color: rgba(225,225,225,.5);
-}
-
-.next{
-    right: 16.3%;
-}
-
 .row{
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between; 
+    height: 1000px;
 }
 
 .column{
-    width: 200px;
+    width: 300px;
 }
 
 .view{
