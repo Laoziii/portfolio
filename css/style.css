@@ -283,6 +283,11 @@ section{
 
 .headr{
     text-decoration: underline;
+    font-size: 35px;
+}
+
+.resume li{
+    font-size: 20px;
 }
 /** Portfolio **/
 .portc{
@@ -333,7 +338,7 @@ section{
 .webp p{
     text-align: center;
 }
-/** Resume **/
+/** tech skills **/
 .resfl{
     display: flex;
     flex-wrap: wrap;
@@ -344,6 +349,10 @@ section{
 .resfl h2{
     width: 100%;
     margin-left: 50%;
+}
+
+.resfl img, .resflr img{
+    width: 700px;
 }
 
 .resfl p{
@@ -365,6 +374,26 @@ section{
 .resflr p{
     width: 50%;
 }
+
+/**Writing**/
+.blox{
+    border: 5px solid black;
+    padding: 1%;
+    width: 75%;
+    margin-bottom: 2%;
+}
+
+.bloxf{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.line h2{
+    border-bottom: 3px solid;
+}
+
+
 /** Gallery **/
 
 .picf{
