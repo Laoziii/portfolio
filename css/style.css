@@ -405,9 +405,18 @@ section{
     position: relative;
 }
 
+.galcon{
+    width: 60%;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.gal{
+    display: none;
+}
+
 .galp{
     width: 100%;
-    display: none;
 }
 
 .but{
@@ -423,11 +432,14 @@ section{
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-between; 
-    height: 1000px;
 }
 
 .column{
-    width: 300px;
+    width: 23%;
+}
+
+.bigger{
+    width: 60%;
 }
 
 .view{
@@ -436,3 +448,24 @@ section{
 
 /**Media queries**/
 
+@media screen and (max-width: 1440px){
+    body{
+        100%;
+    }
+    
+    .titlet{
+        height: 100vh;
+    }
+    
+    .dropl{
+        width: 100%;
+    }
+    
+    .dropl a{
+        width: 100%;
+    }
+    
+    .dropc{
+        width: 100%;
+    }
+}
