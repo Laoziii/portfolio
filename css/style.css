@@ -7,7 +7,7 @@ body {
     background-attachment: fixed;
 }
 .titlet{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../ims/IMG_0218.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../ims/IMG_02182.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: 0 -200px;
@@ -70,6 +70,14 @@ body {
     height: 100vh;
 }
 
+.titlel{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../ims/IMG_08502.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -200px;
+    height: 100vh;
+}
+
 .flex{
     display: flex;
     justify-content: center;
@@ -97,6 +105,11 @@ h1{
 
 h1, h2, h3, h4{
     font-family: 'Orator Std Medium', medium;
+}
+
+a{
+    text-decoration: none;
+    color: skyblue;
 }
 
 .name{
@@ -221,6 +234,7 @@ section{
     text-align: center;
     font-family: "Tahoma Regular";
     margin: auto;
+    transform: rotate(90deg);
 }
 
 .bighh{
@@ -288,6 +302,10 @@ section{
 
 .resume li{
     font-size: 20px;
+}
+
+.lorr{
+    font-family: 'Orator Std Medium', medium;
 }
 /** Portfolio **/
 .portc{
@@ -444,6 +462,13 @@ section{
 
 .view{
     width: 100%;
+}
+
+/**Other stuff**/
+
+.lor{
+    display: flex;
+    justify-content: center;
 }
 
 /**Media queries**/
