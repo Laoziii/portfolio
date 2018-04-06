@@ -5,6 +5,7 @@
     <title>Resume</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header class="header">
         <div class="titlere flex">
@@ -12,13 +13,14 @@
                 <h1>Resume</h1>
             </aside>
         </div>
-        
+
         <nav>
             <div class="title">
                 <div class="name">
                     <img src="ims/logo.png" alt="logo" class="rvt">
                 </div>
-                <div class="dropdown"> <!-- I change my mind, I'm doing this side by side -->
+                <div class="dropdown">
+                    <!-- I change my mind, I'm doing this side by side -->
                     <a href="index.html" class="dropl">Home</a>
                     <a href="about.html" class="dropl">About Me</a>
                     <a href="resume.html" class="dropl">Resume</a>
@@ -35,70 +37,109 @@
             </div>
         </nav>
     </header>
-    
+
     <section>
         <article class="resume">
             <div class="edu">
                 <h2 class="headr">Education</h2>
-                    <h3>Center for Advanced Research and Technology</h3>
+                <h3>Center for Advanced Research and Technology</h3>
+                <ul>
+                    <h4>Web Application Development (Aug. 2017-present)</h4>
                     <ul>
-                        <h4>Web Application Development (Aug. 2017-present)</h4>
-                        <ul>
-                            <li>Collaborated with classmates to work on projects</li>
-                            <li>Assembled websites</li>
-                        </ul>
+                        <li>Collaborated with classmates to work on projects</li>
+                        <li>Assembled websites</li>
                     </ul>
-                    <h3>Clovis East High School (Aug. 2015-present)</h3>
-                    <ul>
-                        <li>College preparatory and Advanced Placement classes</li>
-                        <li>GPA 3.8</li>
-                    </ul>
+                </ul>
+                <h3>Clovis East High School (Aug. 2015-present)</h3>
+                <ul>
+                    <li>College preparatory and Advanced Placement classes</li>
+                    <li>GPA 3.8</li>
+                </ul>
             </div>
             <div class="work">
                 <h2 class="headr">Work Experience</h2>
-                    <h3>Team Limitless (June 2017-Aug. 2017)</h3>
-                    <ul>
-                        <li>Learned teamwork skills</li>
-                        <li>Helped team members with their live streams</li>
-                        <li>Helped coordinate events for Limitless and Infinium</li>
-                    </ul>
+                <h3>Team Limitless (June 2017-Aug. 2017)</h3>
+                <ul>
+                    <li>Learned teamwork skills</li>
+                    <li>Helped team members with their live streams</li>
+                    <li>Helped coordinate events for Limitless and Infinium</li>
+                </ul>
             </div>
             <div class="lang">
                 <h2 class="headr">Languages</h2>
-                    <ul>
-                        <li>Lao</li>
-                        <li>English</li>
-                        <li>Spanish</li>
-                    </ul>
+                <ul>
+                    <li>Lao</li>
+                    <li>English</li>
+                    <li>Spanish</li>
+                </ul>
             </div>
             <div class="plang">
                 <h2 class="headr">Programming Languages</h2>
-                    <ul>
-                        <li>Python</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
+                <ul>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
             </div>
         </article>
         <article>
             <h2>Letters of Recommendation</h2>
-            <div>
+            <div class="lorf">
                 <img src="ims/avilaloc.jpg" alt="">
-                <h3>Full letter found <a href="avilalor.html" class="lorr">here</a></h3>
-                <p>Contact: <a href="javieravila@cusd.com">javieravila@cusd.com</a></p>
+                <div class="lorbutton">
+                    <button onclick="showLor()" class="lorbut">Full Letter</button>
+                </div>
+                <div class="picbig" id="heha">
+                    <div class="piccon" onblur="closeLor()">
+                        <div class="divpic">
+                            <span class="picclose" onclick="closeLor()">&times;</span>
+                        </div>
+                        <div class="picc">
+                            <img src="ims/fullavila.jpg" alt="Avila's Letter of Recommendation">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div>
+            <p>Contact: <a href="javieravila@cusd.com">javieravila@cusd.com</a></p>
+
+            <div class="lorf">
                 <img src="ims/wilkeloc.jpg" alt="">
-                <h3>Full letter found <a href="wilkelor.html" class="lorr">here</a></h3>
-                <p>Contact: <a href="lynettewilke-lopez@cusd.com">lynettewilke-lopez@cusd.com</a></p>
+                <div class="lorbutton">
+                    <button onclick="showLorw()" class="lorbut" id="hehet">Full Letter</button>
+                </div>
+                <div class="picbig" id="hehaa">
+                    <div class="piccon" onblur="closeLorw()">
+                        <div class="divpic">
+                            <span class="picclose" onclick="closeLorw()">&times;</span>
+                        </div>
+                        <div class="picc">
+                            <img src="ims/fullwilke.jpg" alt="Wilke's Letter of Recommendation">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div>
+            <p>Contact: <a href="lynettewilke-lopez@cusd.com">lynettewilke-lopez@cusd.com</a></p>
+
+            <div class="lorf">
                 <img src="ims/mendloc.jpg" alt="">
-                <h3>Full letter found <a href="mendlor.html" class="lorr">here</a></h3>
-                <p>Contact: <a href="mayramendoza@cusd.com">mayramendoza@cusd.com</a></p>
+                <div class="lorbutton">
+                    <button onclick="showLorm()" class="lorbut" id="hehet">Full Letter</button>
+                </div>
+                <div class="picbig" id="hehaaa">
+                    <div class="piccon" onblur="closeLorm()">
+                        <div class="divpic">
+                            <span class="picclose" onclick="closeLorm()">&times;</span>
+                        </div>
+                        <div class="picc">
+                            <img src="ims/fullmend.jpg" alt="Mendoza's Letter of Recommendation">
+                        </div>
+                    </div>
+                </div>
             </div>
+            <p>Contact: <a href="mayramendoza@cusd.com">mayramendoza@cusd.com</a></p>
         </article>
     </section>
+    <script src="yes.js"></script>
 </body>
 </html>

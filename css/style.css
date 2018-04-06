@@ -2,11 +2,12 @@ body {
     padding: 0;
     margin: 0;
     background-color: #a5b1bd;
-    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../ims/IMG_06252.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../ims/IMG_06252.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
-.titlet{
+
+.titlet {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../ims/IMG_02182.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -14,7 +15,7 @@ body {
     height: 100vh;
 }
 
-.titleab{
+.titleab {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../ims/IMG_02412.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -22,7 +23,7 @@ body {
     height: 100vh;
 }
 
-.titlere{
+.titlere {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../ims/IMG_02972.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -30,7 +31,7 @@ body {
     height: 100vh;
 }
 
-.titlepo{
+.titlepo {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../ims/IMG_02922.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -38,7 +39,7 @@ body {
     height: 100vh;
 }
 
-.titlewp{
+.titlewp {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../ims/IMG_05922.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -46,7 +47,7 @@ body {
     height: 100vh;
 }
 
-.titlewr{
+.titlewr {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../ims/IMG_06122.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -54,7 +55,7 @@ body {
     height: 100vh;
 }
 
-.titlega{
+.titlega {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../ims/IMG_02042.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -62,15 +63,7 @@ body {
     height: 100vh;
 }
 
-.titlec{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../ims/IMG_04252.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: 0 -200px;
-    height: 100vh;
-}
-
-.titlel{
+.titlec {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../ims/IMG_08502.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -78,24 +71,24 @@ body {
     height: 100vh;
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.titleb{
-    background-color: rgba(225,225,225,.4);
+.titleb {
+    background-color: rgba(225, 225, 225, .4);
     width: 40%;
 }
 
-h1{
+h1 {
     color: #fde9ce;
     font-size: 50px;
     text-align: center;
 }
 
-.topr{
+.topr {
     background-color: #fde9ce;
     width: 240px;
     text-align: center;
@@ -103,16 +96,19 @@ h1{
     border: 5px solid #fde9ce;
 }
 
-h1, h2, h3, h4{
+h1,
+h2,
+h3,
+h4 {
     font-family: 'Orator Std Medium', medium;
 }
 
-a{
+a {
     text-decoration: none;
     color: skyblue;
 }
 
-.name{
+.name {
     border: 2px solid white;
     border-radius: 100%;
     width: 100px;
@@ -122,37 +118,38 @@ a{
     justify-content: center;
 }
 
-.rvt{
+.rvt {
     width: 100%;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
-nav{
+nav {
     background-color: #393e41;
     padding: 1%;
 }
 
-h2{
+h2 {
     margin-top: 0;
 }
 
-p, a{
+p,
+a {
     font-family: "Tahoma Regular";
 }
 
-p{
+p {
     font-size: 20px;
     margin-top: 0;
 }
 
-.title{
+.title {
     display: flex;
 }
 
-.dropdown{
+.dropdown {
     width: 100%;
     height: auto;
     display: flex;
@@ -161,7 +158,7 @@ p{
     justify-content: center;
 }
 
-.dropl{
+.dropl {
     display: inline-block;
     border: 3px solid #fde9ce;
     background-color: white;
@@ -175,21 +172,21 @@ p{
     margin-top: 0;
 }
 
-.dropl:last-child{
+.dropl:last-child {
     margin-left: 1%;
 }
 
-.dropl:hover{
-    background-color: rgba(225,225,225,.8);
+.dropl:hover {
+    background-color: rgba(225, 225, 225, .8);
 }
 
-.dropc{
+.dropc {
     display: none;
     position: absolute;
     z-index: 1;
 }
 
-.dropc a{
+.dropc a {
     text-decoration: none;
     display: block;
     text-align: center;
@@ -204,30 +201,31 @@ p{
     color: #3f5676;
 }
 
-.dropc a:hover{
-    background-color: rgba(225,225,225,.8);
+.dropc a:hover {
+    background-color: rgba(225, 225, 225, .8);
 }
 
-.sidething:hover .dropc{
+.sidething:hover .dropc {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.sidething{
+.sidething {
     overflow: hidden;
 }
 
-section{
+section {
     margin-left: 10%;
     margin-right: 10%;
-    background-color: rgba(134,139,145,.9);
+    background-color: rgba(134, 139, 145, .9);
     padding: 1%;
     height: 100%;
 }
 
 /** home page **/
-.bigh{
+
+.bigh {
     width: 100%;
     background-color: #868b91;
     padding: 1%;
@@ -237,110 +235,173 @@ section{
     transform: rotate(90deg);
 }
 
-.bighh{
+.bighh {
     width: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.size{
+.size {
     width: 50%;
     height: 25%;
 }
 
-.size p{
+.size p {
     margin-top: 10%;
 }
 
-.flexh{
+.flexh {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.cardh{
+.cardh {
     display: flex;
     justify-content: space-around;
 }
 
-.carda{
+.carda {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../ims/IMG_05222.jpg);
     background-size: cover;
 }
 
-.cardr{
+.cardr {
     background-image: url(../ims/IMG_05042.jpg);
     background-size: cover;
 }
 
-.cardp{
+.cardp {
     background-image: url(../ims/IMG_04862.jpg);
     background-size: cover;
 }
 
 /** About Me **/
 
-    
-
 /**resume**/
-.resume{
+
+.resume {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-around;
 }
 
-.edu, .work, .lang, .plang{
+.edu,
+.work,
+.lang,
+.plang {
     width: 40%;
 }
 
-.headr{
+.headr {
     text-decoration: underline;
     font-size: 35px;
 }
 
-.resume li{
+.resume li {
     font-size: 20px;
 }
 
-.lorr{
+.lorr {
     font-family: 'Orator Std Medium', medium;
 }
+
+.picbig {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    padding-top: 100px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.piccon {
+    background-color: aliceblue;
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+}
+
+.picclose {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.picclose:hover {
+    cursor: pointer;
+}
+
+.picc {
+    display: flex;
+    justify-content: center;
+}
+
+.divpic {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+
+.lorbut {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    height: 100px;
+    width: 100px;
+}
+
+.lorf {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lorbutton {
+    width: 600px;
+}
+
 /** Portfolio **/
-.portc{
+
+.portc {
     width: 25%;
 }
 
-.portc a{
+.portc a {
     text-decoration: none;
 }
 
-.portfl{
+.portfl {
     display: flex;
     justify-content: space-around;
 }
 
-.portfl a{
+.portfl a {
     text-decoration: none;
 }
 
-.webpc{
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../ims/IMG_07132.jpg);
+.webpc {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../ims/IMG_07132.jpg);
     background-size: cover;
 }
 
-.webpw{
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../ims/notebook-pen-table-blank-158771.jpg);
+.webpw {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../ims/notebook-pen-table-blank-158771.jpg);
     background-size: cover;
 }
 
-.webpg{
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../ims/IMG_065423.jpg);
+.webpg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../ims/IMG_065423.jpg);
     background-size: cover;
 }
 
-.webp{
+.webp {
     width: 100%;
     height: 500px;
     color: white;
@@ -349,35 +410,38 @@ section{
     justify-content: center;
 }
 
-.webp h3{
+.webp h3 {
     height: 5%;
 }
 
-.webp p{
+.webp p {
     text-align: center;
 }
+
 /** tech skills **/
-.resfl{
+
+.resfl {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 5%;
 }
 
-.resfl h2{
+.resfl h2 {
     width: 100%;
     margin-left: 50%;
 }
 
-.resfl img, .resflr img{
+.resfl img,
+.resflr img {
     width: 700px;
 }
 
-.resfl p{
+.resfl p {
     width: 50%;
 }
 
-.resflr{
+.resflr {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -385,36 +449,37 @@ section{
     margin-bottom: 5%;
 }
 
-.resflr h2{
+.resflr h2 {
     width: 100%;
 }
 
-.resflr p{
+.resflr p {
     width: 50%;
 }
 
 /**Writing**/
-.blox{
+
+.blox {
     border: 5px solid black;
     padding: 1%;
     width: 75%;
     margin-bottom: 2%;
 }
 
-.bloxf{
+.bloxf {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.line h2{
+.line h2 {
     border-bottom: 3px solid;
 }
 
 
 /** Gallery **/
 
-.picf{
+.picf {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -423,74 +488,163 @@ section{
     position: relative;
 }
 
-.galcon{
+.galcon {
     width: 60%;
     position: relative;
     margin-bottom: 5%;
 }
 
-.gal{
+.gal {
     display: none;
 }
 
-.galp{
+.galp {
     width: 100%;
 }
 
-.but{
+.but {
     width: 67.3%;
 }
 
-.picp{
+.picp {
     text-align: center;
 }
 
-.row{
+.row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-content: space-between; 
+    align-content: space-between;
 }
 
-.column{
+.column {
     width: 23%;
 }
 
-.bigger{
+.bigger {
     width: 60%;
 }
 
-.view{
+.view {
     width: 100%;
 }
 
-/**Other stuff**/
+/**Contact**/
 
-.lor{
+.formf {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lor {
     display: flex;
     justify-content: center;
 }
 
+.cname {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.cemail {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.cphone {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.ctext {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ctext textarea {
+    width: 500px;
+    height: 200px;
+}
+
+.cname div,
+.cemail div,
+.cphone div,
+.ctext div {
+    width: 130px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.csubmit input {
+    height: 50px;
+}
+
 /**Media queries**/
 
-@media screen and (max-width: 1440px){
-    body{
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    body {
         100%;
     }
-    
-    .titlet{
+
+    .titlet {
         height: 100vh;
     }
-    
-    .dropl{
+
+    .dropl {
         width: 100%;
     }
-    
-    .dropl a{
+
+    .dropl a {
         width: 100%;
     }
-    
-    .dropc{
+
+    .dropc {
         width: 100%;
     }
 }
+
+@media screen and (min-width: 480px) and (max-width: 1024px){
+    /**home**/
+    
+    section{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    
+    /**about me**/
+    .abt{
+        padding: 5%;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
