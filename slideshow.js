@@ -14,5 +14,5 @@ function showPic(){
     }
     
     slide[picInd-1].style.display = "block";
-    setTimeout(showPic, 5000);
+    setTimeout(showPic, 3000);
 }

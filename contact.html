@@ -45,21 +45,21 @@
                 <div>
                     <label for="cname">Full Name:</label>
                 </div>
-                <input type="text" name="cname" width="500px">
+                <input type="text" name="cname" id="cname" required>
             </div>
             <br>
             <div class="cemail">
                 <div>
                     <label for="cemail">Email:</label>
                 </div>
-                <input type="email">
+                <input type="email" id="cemail" required>
             </div>
             <br>
             <div class="cphone">
                 <div>
                     <label for="cphone">Phone Number:</label>
                 </div>
-                <input type="tel">
+                <input type="tel" id="ctel">
             </div>
             <br>
             <div class="ctext">
@@ -70,9 +70,10 @@
             </div>
             <br>
             <div class="csubmit">
-                <input type="submit">
+                <input type="submit" id="submit">
             </div>
         </form>
     </section>
+    <script src="valform.js"></script>
 </body>
 </html>
