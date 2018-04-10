@@ -230,14 +230,13 @@ section {
     width: 100%;
     background-color: #868b91;
     padding: 1%;
-    text-align: center;
-    font-family: "Tahoma Regular";
     margin: auto;
     transform: rotate(90deg);
+    max-height: 100%;
 }
 
 .bighh {
-    width: 20%;
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -277,8 +276,6 @@ section {
     background-image: url(../ims/IMG_04862.jpg);
     background-size: cover;
 }
-
-/** About Me **/
 
 /**resume**/
 
@@ -429,8 +426,7 @@ section {
 }
 
 .resfl h2 {
-    width: 100%;
-    margin-left: 50%;
+    width: 10%;
 }
 
 .resfl img,
@@ -450,7 +446,7 @@ section {
     margin-bottom: 5%;
 }
 
-.resflr h2 {
+.resfld {
     width: 100%;
 }
 
@@ -592,7 +588,7 @@ section {
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
     body {
-        100%;
+        width: 100%;
     }
 
     .titlet {
@@ -688,7 +684,6 @@ section {
     /**tech**/
     .resfl h2 {
         width: 100%;
-        margin-left: 50%;
     }
 
     .resfl img,
