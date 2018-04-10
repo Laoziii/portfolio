@@ -458,6 +458,10 @@ section {
     width: 50%;
 }
 
+.resfld{
+    width: 100%;
+}
+
 /**Writing**/
 
 .blox {
@@ -686,6 +690,7 @@ section {
     }
 
     /**tech**/
+    
     .resfl h2 {
         width: 100%;
         margin-left: 50%;
@@ -710,7 +715,7 @@ section {
     }
 
     .resflr p {
-        width: 50%;
+        width: 40%;
     }
 }
 
