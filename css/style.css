@@ -227,16 +227,15 @@ section {
 /** home page **/
 
 .bigh {
-    width: 100%;
+    width: 300px;
     background-color: #868b91;
     padding: 1%;
     margin: auto;
-    transform: rotate(90deg);
     max-height: 100%;
 }
 
 .bighh {
-    width: 30%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
